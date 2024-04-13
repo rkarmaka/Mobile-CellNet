@@ -3,7 +3,7 @@ sys.path.insert(0, './utils')
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, TensorBoard
 from tensorflow.keras.optimizers import Adam
 import pandas as pd
-import models
+import modules.models as models
 import func
 import load_images
 from datetime import datetime

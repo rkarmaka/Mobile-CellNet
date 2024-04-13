@@ -5,7 +5,7 @@ from tensorflow.keras.metrics import AUC, MeanAbsoluteError, MeanIoU
 import numpy as np
 import pandas as pd
 from keras_flops import get_flops
-import load_images, models, func
+import load_images, modules.models as models, func
 ########################################################################################################################
 
 img_size=(224,224,1)

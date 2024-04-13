@@ -3,7 +3,7 @@ sys.path.insert(0, './utils')
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.metrics import AUC, MeanIoU, MeanAbsoluteError
 import pandas as pd
-import models
+import modules.models as models
 import func
 import numpy as np
 import load_images

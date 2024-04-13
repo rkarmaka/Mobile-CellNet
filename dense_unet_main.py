@@ -16,7 +16,7 @@ import seaborn as sns
 import cv2 as cv
 
 import  os
-import models
+import modules.models as models
 import evals
 import func
 import load_images
